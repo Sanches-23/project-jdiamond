@@ -36,8 +36,8 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 24px;
-    border: 1px solid cadetblue;
-    background-color: #fdfd;
+    order: 1px solid color-mix(in srgb, var(--color-dark) 20%, transparent);
+    background: var(--color-light-gray);
     padding: 32px 12px;
 }
 
