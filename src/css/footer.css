@@ -1,149 +1,146 @@
 .footer {
-    padding-top: 80px;
-    padding-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-logo {
-    display: block;
-    margin-bottom: 32px;
+  display: block;
+  margin-bottom: 32px;
 }
 
 .logo-icon {
-    display: block;
-    width: 217px;
-    height: 93px;
+  display: block;
+  width: 217px;
+  height: 93px;
 }
 
 .social-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-    margin-bottom: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 64px;
 }
 
 .social-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    transition: color var(--transition-default);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 6px;
+  transition: color var(--transition-default);
 }
 
 .social-icon {
-    display: block;
-    width: 32px;
-    height: 32px;
+  display: block;
+  width: 32px;
+  height: 32px;
 }
 
 .social-link:hover,
 .social-link:focus {
-    color: var(--color-accent);
+  color: var(--color-accent);
 }
 
 .footer-nav {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .footer-list {
-    align-items: center;
+  align-items: center;
 }
 
 .footer-link {
-    font-size: 18px;
-    line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .footer-copy {
-    width: 100%;
-    padding-top: 32px;
-    border-top: 1px solid var(--color-light-gray);
-    font-size: 14px;
-    line-height: 1.5;
-    text-align: center;
+  width: 100%;
+  padding-top: 32px;
+  border-top: 1px solid var(--color-light-gray);
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
-    .footer {
-        padding-top: 80px;
-    }
+  .logo-icon {
+    width: 342px;
+    height: 146.57px;
+  }
 
-    .container.footer-container {
-        padding-left: 64px;
-        padding-right: 64px;
-    }
+  .footer-link {
+    font-size: 16px;
+  }
+}
 
-    .logo-icon {
-        width: 342px;
-        height: 146.57px;
-    }
-
-    .footer-link {
-        font-size: 16px;
-    }
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+  .container.footer-container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
-    .footer {
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
+  .footer-container {
+    display: grid;
+    grid-template-columns: 342px 303px;
+    grid-template-rows: auto 1fr;
+    justify-content: space-between;
+    align-items: start;
+  }
 
-    .footer-container {
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        grid-template-rows: auto 1fr;
-        align-items: start;
-    }
+  .footer-logo {
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 32px;
+  }
 
-    .footer-logo {
-        grid-column: 1;
-        grid-row: 1;
-        margin-bottom: 32px;
-    }
+  .footer-nav {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    margin-bottom: 0;
+  }
 
-    .social-list {
-        grid-column: 1;
-        grid-row: 2;
-        justify-content: flex-start;
-        gap: 12px;
-        margin-bottom: 0;
-    }
+  .footer-list {
+    width: 303px;
+    align-items: flex-start;
+  }
 
-    .footer-nav {
-        grid-column: 2;
-        grid-row: 1 / span 2;
-        margin-bottom: 0;
-    }
+  .social-list {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: start;
+    justify-content: flex-start;
+    gap: 12px;
+    margin-bottom: 0;
+  }
 
-    .footer-list {
-        width: 303px;
-        align-items: flex-start;
-    }
+  .footer-copy {
+    grid-column: 1 / -1;
+    margin-top: 24px;
+  }
 
-    .footer-copy {
-        grid-column: 1 / -1;
-        margin-top: 24px;
-    }
+  .social-icon {
+    width: 24px;
+    height: 24px;
+  }
 
-    .social-icon {
-        width: 24px;
-        height: 24px;
-    }
+  .logo-icon {
+    width: 84px;
+    height: 36px;
+  }
 
-    .logo-icon {
-        width: 84px;
-        height: 36px;
-    }
-
-    .social-link {
-        width: 24px;
-        height: 24px;
-    }
+  .social-link {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+  }
 }
