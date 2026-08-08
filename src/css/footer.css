@@ -13,7 +13,7 @@
   margin-bottom: 32px;
 }
 
-.logo-icon {
+.footer-icon {
   display: block;
   width: 217px;
   height: 93px;
@@ -71,7 +71,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .logo-icon {
+  .footer-icon {
     width: 342px;
     height: 146.57px;
   }
@@ -133,7 +133,7 @@
     height: 24px;
   }
 
-  .logo-icon {
+  .footer-icon {
     width: 84px;
     height: 36px;
   }
