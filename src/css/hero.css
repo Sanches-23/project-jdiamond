@@ -1,18 +1,53 @@
 .hero {
-
+background-image: url(image/hero-bg.webp);
 }
-.hero-h1 {
-
+@media (min-resolution:192dpi) {
+    .hero {
+        background-image: url(image/hero-bg@2x.webp);
+    }
+}
+.hero-h2 {
+padding-top:160px;
+padding-bottom:24px;
+}
+@media (min-width: 768px) {
+    .hero-h2 {
+        max-width: 512px;
+        padding-top: 200px;
+        padding-bottom:0px;
+        margin-bottom: 24px;
+    }
+}
+@media (min-width: 1440px) {
+    .hero-h2 {
+        max-width: 640px;
+        margin-top: 224px;
+    }
 }
 .hero-p {
-
+    margin-bottom: 32px;
 }
-
-.hero-button{
-
+@media (min-width: 768px) {
+    .hero-p {
+        max-width: 465px;
+    }
 }
-
-
-
-
+@media(min-width: 1440px) {
+    .hero-p {
+        max-width: 512px;
+    }
+}
+.hero-link{
+    margin-bottom: 152px;
+}
+@media (min-width: 768px) {
+    .hero-link {
+        margin-bottom: 435px;
+    }
+}
+@media (min-width: 1440px) {
+    .hero-link {
+        margin-bottom: 360px;
+    }
+}
 
