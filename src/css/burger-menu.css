@@ -45,7 +45,7 @@ body:has(.mobile-menu.is-open) {
 .menu-close-btn {
   position: absolute;
   top: 12px;
-  right: 24px;
+  right: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
