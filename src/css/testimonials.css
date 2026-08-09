@@ -138,6 +138,12 @@
     margin-bottom: 24px;
 }
 
+.rating-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .testimonials-star {
     color: var(--color-dark);
 }
