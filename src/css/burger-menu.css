@@ -1,3 +1,6 @@
+body:has(.mobile-menu.is-open) {
+  overflow: hidden;
+}
 .mobile-menu {
   position: fixed;
   top: 0;
@@ -6,6 +9,7 @@
   height: 100%;
   z-index: 999;
   background-color: var(--color-white);
+  overflow: hidden;
 
   opacity: 0;
   visibility: hidden;
@@ -63,7 +67,7 @@
   padding: 16px 0 24px 0;
 }
 .menu-nav {
-    margin-bottom: 64px;
+  margin-bottom: 64px;
 }
 .menu-nav-list {
   gap: 24px;
