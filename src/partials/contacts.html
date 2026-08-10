@@ -4,7 +4,7 @@
       <p class="contacts-label">Connect</p>
     </div>
     <div class="contacts-title-wrapper">
-      <h3 class="contacts-title">Order your unique jewelry</h3>
+      <h2 class="contacts-title">Order your unique jewelry</h2>
       <p class="contacts-text">
         We'd love to hear more details from you!
       </p>
@@ -12,14 +12,14 @@
   </div>
  <div class="container">
     <div class="contacts-content">
-      <div class="contacts-info">
+      <address class="contacts-info">
         <ul class="contacts-list">
           <li class="contacts-item">
             <svg class="contacts-icon" width="32" height="32">
               <use href="./images/icons.svg#icon-envelope"></use>
             </svg>
 
-           <address class="contacts-item-content">
+           <div class="contacts-item-content">
               <p class="contacts-subtitle">Email</p>
 
               <a
@@ -28,7 +28,7 @@
               >
                 info@handmadejewelry.com
               </a>
-           </address>
+            </div>
           </li>
 
           <li class="contacts-item">
@@ -36,13 +36,13 @@
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
 
-            <address class="contacts-item-content">
+            <div class="contacts-item-content">
               <p class="contacts-subtitle">Phone</p>
 
               <a class="contacts-link" href="tel:+15550000000">
                 +1 (555) 000-0000
               </a>
-            </address>
+            </div>
           </li>
 
           <li class="contacts-item">
@@ -50,7 +50,7 @@
               <use href="./images/icons.svg#icon-icon"></use>
             </svg>
 
-            <address class="contacts-item-content">
+            <div class="contacts-item-content">
               <p class="contacts-subtitle">Office</p>
 
               <a class="contacts-link"
@@ -59,10 +59,10 @@
                 rel="noopener noreferrer">
                 76–8 Oakington Manor Dr. London, UK
               </a>
-            </address>
+            </div>
           </li>
         </ul>
-      </div>
+      </address>
 
       <form class="contacts-form" id="contacts-form">
         <label class="contacts-form-label">
@@ -72,8 +72,7 @@
             type="text"
             name="name"
             placeholder="Tony"
-            required
-            minlength="2"
+            required            
             pattern="^[a-zA-Z\s\.]{5,28}$"
           >
         </label>
@@ -86,6 +85,7 @@
             name="phone"
             placeholder="+1 234 123 23"
             pattern="^+[0-9\s]{14}$" 
+            required
           >
         </label>
 
@@ -94,8 +94,7 @@
           <textarea
             class="contacts-textarea"
             name="message"
-            placeholder="Type your message..."
-            required
+            placeholder="Type your message..."            
             minlength="20"
             maxlength="500"
           ></textarea>
