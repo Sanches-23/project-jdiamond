@@ -1,5 +1,5 @@
 .benefits {
-
+    padding: 64px 0;
 }
 
 .benefits-title {
@@ -8,8 +8,9 @@
     line-height: 43px;
     letter-spacing: -0.01em;
     text-align: center;
-    color: var(--color-scheme-2-text);
-    margin: 64px 0 32px;
+    color: var(--color-dark);
+    margin-bottom: 32px;
+    list-style-type: none;
 }
 
 .benefits-subtitle {
@@ -18,25 +19,24 @@
     line-height: 34px;
     letter-spacing: -0.01em;
     text-align: center;
-    color: var(--color-scheme-2-text);
+    color: var(--color-dark);
 }
 
 .benefits-list {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 32px;
-    margin-bottom: 64px;
 }
 
 .benefits-list > li {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-direction: column;
     gap: 24px;
-    order: 1px solid color-mix(in srgb, var(--color-dark) 20%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-dark) 20%, transparent);
     background: var(--color-light-gray);
     padding: 32px 12px;
 }
@@ -52,44 +52,23 @@
         line-height: 34px;
         letter-spacing: -0.01em;
         text-align: center;
-        color: var(--color-scheme-2-text);
    } 
 }
 @media only screen and (min-width: 1440px) {
 .benefits-title {
-    /* font-family:  */
-    font-weight: 400;
     font-size: 40px;
     line-height: 48px;
-    letter-spacing: -0.01em;
-    text-align: center;
-    /* color:  */
-    list-style-type: none;
-    text-align: center;
 }
 
 .benefits-list {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: row;
-    margin-top: 32px;
-    margin-bottom: 64px;
-    gap: 32px;
 }
-.benefits-list > li {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 32px;
 
-    border: 1px solid color-mix(in srgb, var(--color-dark) 20%, transparent);
+.benefits-list > li {
     padding: 32px 12px;
     width: 416px;
     height: 194px;
-    background: var(--color-light-gray);
-    
 }
 
 }
