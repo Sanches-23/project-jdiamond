@@ -28,9 +28,6 @@
   gap: 24px;
 }
 
-.about__title {
-}
-
 .about__text {
   margin: 0;
 
@@ -106,7 +103,7 @@ TABLET
     padding-bottom: 112px;
   }
 
-    .about__container {
+  .about__container {
     gap: 32px;
   }
 
