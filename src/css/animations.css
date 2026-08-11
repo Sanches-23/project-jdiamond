@@ -1,17 +1,19 @@
-@keyframes underline-rollback {
-  0% {
-    transform: scaleX(1);
-    transform-origin: right;
+/*на кінець проекту за можливості*/
+@keyframes slide {
+  from {
+    transform: translateX(-140%) translateY(-50%);
   }
-  50% {
-    transform: scaleX(0);
-    transform-origin: right;
+  to {
+    transform: translateX(-104%) translateY(-50%);
   }
-  51% {
-    transform-origin: left;
+}
+@keyframes stretch {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(100%) scale(0.2);
   }
-  100% {
-    transform: scaleX(1);
-    transform-origin: left;
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(100%) scale(1);
   }
 }
