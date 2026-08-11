@@ -1,14 +1,14 @@
 .header {
   background: var(--color-white);
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-dark) 20%, transparent);
 }
 .header > .container {
   display: flex;
   align-items: center;
   padding: 0px 12px 0px 20px;
 }
-/* .header-left-wrap {
-  display: flex;
-} */
 .header-logo {
   display: flex;
   align-items: center;
