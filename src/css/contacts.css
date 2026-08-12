@@ -104,7 +104,8 @@
 }
 
 .contacts-input:focus::placeholder {
-  color: #ccc16e;
+  
+color: rgba(0, 0, 0, 0.6);
 
 }
 
@@ -131,7 +132,7 @@
 
 .contacts-textarea:focus::placeholder {
 
- color: #ccc16e;
+color: rgba(0, 0, 0, 0.6);
 }
 
 @media only screen and (min-width: 768px) {
@@ -147,7 +148,6 @@
   .contacts-item {
     width: 218px;
   }
-
   
 }
 
