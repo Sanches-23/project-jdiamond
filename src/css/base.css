@@ -151,7 +151,6 @@ h2 {
 }
 
 .custom-link {
-  display: inline-block;
   line-height: 1;
   background-image: linear-gradient(var(--color-dark), var(--color-dark));
   background-repeat: no-repeat;

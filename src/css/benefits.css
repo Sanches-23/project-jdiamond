@@ -41,6 +41,7 @@
 
 .benefits-p {
   text-align: center;
+  overflow-wrap: anywhere;
 }
 
 @media only screen and (min-width: 780px) {
