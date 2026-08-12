@@ -40,7 +40,7 @@ button, input, textarea {
   margin: 0;
   font: inherit;
   color: inherit;
-  vertical-align: middle; /*можлива поправка*/
+  vertical-align: middle;
 }
 
 input, textarea {

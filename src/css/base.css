@@ -8,7 +8,7 @@
   --color-accent: #CCC16E;
   --color-link-active: #8668c7;
 
-  --transition-default: 300ms cubic-bezier(0.4, 0, 0.2, 1); /*поки значення стандартні*/
+  --transition-default: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -166,23 +166,4 @@ h2 {
 .custom-link:active {
   color: var(--color-link-active);
   background-image: linear-gradient(var(--color-link-active));
-}
-
-@keyframes underline-rollback-bg {
-  0% {
-    background-size: 100% 1px;
-    background-position-x: 100%;
-  }
-  50% {
-    background-size: 0 1px;
-    background-position-x: 100%;
-  }
-  51% {
-    background-size: 0 1px;
-    background-position-x: 0;
-  }
-  100% {
-    background-size: 100% 1px;
-    background-position-x: 0;
-  }
 }
