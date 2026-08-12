@@ -1,23 +1,31 @@
 .hero {
   padding: 160px 0 152px;
   background-image:linear-gradient(color-mix(in srgb, var(--color-dark) 40%, transparent)),
-  url(../images/hero-bg.webp);
+  url(../images/hero-bg-m.webp);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 375px;
   margin: 0 auto;
 }
-@media (min-resolution:192dpi) {
+@media (max-width: 767.98px) and (min-resolution: 192dpi) {
   .hero {
     background-image:linear-gradient(color-mix(in srgb, var(--color-dark) 40%, transparent)),
-    url(../images/hero-bg@2x.webp);
+    url(../images/hero-bg-m@2x.webp);
   }
 }
 @media (min-width: 768px) {
   .hero {
+    background-image:linear-gradient(color-mix(in srgb, var(--color-dark) 40%, transparent)),
+    url(../images/hero-bg.webp);
     padding: 160px 0 435px;
     max-width: 768px;
+  }
+}
+@media (min-width: 768px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image:linear-gradient(color-mix(in srgb, var(--color-dark) 40%, transparent)),
+    url(../images/hero-bg@2x.webp);
   }
 }
 @media (min-width: 1440px) {
@@ -57,14 +65,3 @@
     max-width: 640px;
   }
 }
-.hero-link{
-}
-@media (min-width: 768px) {
-  .hero-link {
-  }
-}
-@media (min-width: 1440px) {
-  .hero-link {
-  }
-}
-
