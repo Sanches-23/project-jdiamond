@@ -104,7 +104,8 @@
 }
 
 .contacts-input:focus::placeholder {
-  color: #ccc16e;
+  
+color: rgba(0, 0, 0, 0.6);
 
 }
 
@@ -129,27 +130,17 @@
   outline: none;
 }
 
+.contacts-textarea:focus::placeholder {
+
+color: rgba(0, 0, 0, 0.6);
+}
+
 @media only screen and (min-width: 768px) {
   .contacts {
     padding: 64px 0;
   }
 
-  .contacts-header {
-  }
-
-  .contacts-label {
-  }
-
-  .contacts-label-wrapper {
-  }
-
-  .contacts-title-wrapper {
-  }
-
-  .contacts-title {
-  }
-
-  .contacts-list {
+    .contacts-list {
     flex-direction: row;
     gap: 25px
   }
@@ -157,9 +148,7 @@
   .contacts-item {
     width: 218px;
   }
-
-  .contacts-item-content {
-  }
+  
 }
 
 @media only screen and (min-width: 1440px) {
@@ -167,15 +156,9 @@
     padding: 64px 0;
   }
 
-  .contacts-header {
-  }
-
-  .contacts-title-wrapper {
-  }
-
-  .contacts-list {
+    .contacts-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     row-gap: 32px;
     column-gap: 32px;
@@ -200,4 +183,48 @@
     align-items: flex-start;
     gap: 32px;
   }
+
+  .contacts-item {
+    width: 304px;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
